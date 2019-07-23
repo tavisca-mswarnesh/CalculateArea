@@ -9,7 +9,7 @@ public class Rectangle : IShape
         this.length = length;
         this.breath = breath;
     }
-    public  double Area()
+    public  double CalculateArea()
     {
         return (length * breath);
     }

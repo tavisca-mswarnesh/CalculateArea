@@ -10,7 +10,7 @@ public class Square: IShape
         this.side = side;
     }
 	
-    public  double Area()
+    public  double CalculateArea()
     {
         return (side * side);
     }

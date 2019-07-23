@@ -8,7 +8,7 @@ public class Circle: IShape
 	{
         this.radius = radius;
 	}
-    public  double Area()
+    public  double CalculateArea()
     {
         return (3.14 * radius * radius);
     }

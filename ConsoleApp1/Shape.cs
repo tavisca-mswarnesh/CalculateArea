@@ -6,6 +6,6 @@ namespace Areas
 {
     interface IShape
     {
-        double Area();
+        double CalculateArea();
     }
 }
